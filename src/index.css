@@ -20,6 +20,7 @@
   --s-finance:       #FFFAEB; /* amber */
   --s-docs:          #F0F9FF; /* sky */
   --s-partner:       #F9F0FF; /* purple */
+  --s-paused:        #FFF6ED; /* orange */
   --s-accepted:      #ECFDF3; /* green */
   --s-rejected:      #FEF3F2; /* red */
 
@@ -28,6 +29,7 @@
   --s-finance-t:       #B54708;
   --s-docs-t:          #026AA2;
   --s-partner-t:       #6927DA;
+  --s-paused-t:        #C4320A;
   --s-accepted-t:      #027A48;
   --s-rejected-t:      #B42318;
 
@@ -394,3 +396,4 @@ td.td-actions { width: 100px; text-align: right; }
 @media (max-width: 600px) {
   .stats-row { grid-template-columns: repeat(2, 1fr); }
 }
+
