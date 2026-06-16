@@ -8,6 +8,7 @@ const STAGES = [
   { id: 'Finance Agreed',    label: 'Finance Agreed',     bg: 'var(--s-finance)',     color: 'var(--s-finance-t)',     dot: '#F79009' },
   { id: 'Document Checking', label: 'Document Checking',  bg: 'var(--s-docs)',        color: 'var(--s-docs-t)',        dot: '#0BA5EC' },
   { id: 'Finance Partner Review', label: 'Finance Partner Review', bg: 'var(--s-partner)', color: 'var(--s-partner-t)', dot: '#9E77ED' },
+  { id: 'Paused',            label: 'Paused',             bg: 'var(--s-paused)',      color: 'var(--s-paused-t)',      dot: '#C4320A' },
   { id: 'Closed - Accepted', label: 'Closed — Accepted',  bg: 'var(--s-accepted)',    color: 'var(--s-accepted-t)',    dot: '#12B76A' },
   { id: 'Closed - Rejected', label: 'Closed — Rejected',  bg: 'var(--s-rejected)',    color: 'var(--s-rejected-t)',    dot: '#F04438' },
 ]
