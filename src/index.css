@@ -396,4 +396,3 @@ td.td-actions { width: 100px; text-align: right; }
 @media (max-width: 600px) {
   .stats-row { grid-template-columns: repeat(2, 1fr); }
 }
-
