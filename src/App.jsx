@@ -4,7 +4,7 @@ import ProspectsView from './ProspectsView.jsx'
 import FinancialsView from './FinancialsView.jsx'
 
 export default function App() {
-  const [tab, setTab] = useState('prospects') // 'prospects' | 'financials'
+  const [tab, setTab] = useState('prospects')
   const [toast, setToast] = useState(null)
 
   const showToast = useCallback((msg, type = 'success') => {
@@ -15,11 +15,11 @@ export default function App() {
     <>
       <header className="header">
         <div className="header-brand">
-          <div className="header-logo">DC</div>
-          <div>
-            <div className="header-title">Dealer Finance Tracker</div>
-            <div className="header-sub">Dubicars × Finance Partner Pipeline</div>
-          </div>
+          <img
+            src="/logo_header.png"
+            alt="Dubicars Dealer Finance"
+            style={{ height: 40, width: 'auto', display: 'block' }}
+          />
         </div>
         <div className="header-actions">
           <button
